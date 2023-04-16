@@ -23,4 +23,4 @@ OpenWeatherMap: Provides current weather conditions and 5-day weather forecast d
 
 
 ## Usage
-To use the application, simply enter an address or coordinates in the search bar and hit the "Search" button. The application will display current weather conditions and a 5-day forecast for the selected location, as well as recommendations for whether it is safe to fly a drone based on the current weather conditions.
+To use the application, simply enter an address or coordinates in the search bar and hit the "Search" button. The application will display current weather conditions and a 5-day forecast for the selected location, as well as recommendations for whether it is safe to fly a drone based on the current weather conditions
