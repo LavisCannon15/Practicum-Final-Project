@@ -13,7 +13,6 @@ export default function Header({ handleSearch }) {
       document.getElementsByClassName("header__search-input")[0]
     );
 
-    console.log(google);
 
     autocomplete.addListener("place_changed", () => {
       const place = autocomplete.getPlace();
