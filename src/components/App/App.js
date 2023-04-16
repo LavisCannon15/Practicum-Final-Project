@@ -188,7 +188,7 @@ function App() {
         <Header handleSearch={handleSearch} />
         <Routes>
           <Route
-            path="/"
+            path="/Practicum-Final-Project"
             element={
               <Main
                 currentWeather={currentWeather}
@@ -203,7 +203,7 @@ function App() {
               />
             }
           />
-          <Route path="/about" element={<About />} />
+          <Route path="/Practicum-Final-Project/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

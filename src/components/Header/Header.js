@@ -33,7 +33,7 @@ export default function Header({ handleSearch }) {
   return (
     <header className="header">
       <div className="header__content">
-        <Link to={"/"}>
+        <Link to={"/Practicum-Final-Project"}>
           <img
             src={logoImage}
             alt="Quadcopter Flight Planner"
@@ -54,7 +54,10 @@ export default function Header({ handleSearch }) {
           </button>
         </form>
 
-        <Link to={"/About"} className="header__about-link">
+        <Link
+          to={"/Practicum-Final-Project/about"}
+          className="header__about-link"
+        >
           <p className="header__about-us-button">About Us</p>
         </Link>
       </div>
