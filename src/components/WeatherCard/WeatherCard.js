@@ -23,51 +23,51 @@ export default function WeatherCard({
         <h3 className="weather__reason">{flightStatus.reason}</h3>
       </div>
 
-      <div className="dropdown__cards">
-        <div className="dropdown__card-list">
+      <div className="weather__dropdown">
+        <ul className="weather__dropdown-list">
           <li
-            className="dropdown__card dropdown__card-weather"
+            className="weather__dropdown-card weather__dropdown-card-weather"
             style={{ background: cardColors.weather }}
           >
-            <p className="dropdown__card-text">Weather</p>
-            <p className="dropdown__card-value">{currentWeather}</p>
+            <p className="weather__dropdown-card-text">Weather</p>
+            <p className="weather__dropdown-card-value">{currentWeather}</p>
           </li>
           <li
-            className="dropdown__card dropdown__card-temperature"
+            className="weather__dropdown-card weather__dropdown-card-temperature"
             style={{ background: cardColors.temperature }}
           >
-            <p className="dropdown__card-text">Temperature</p>
-            <p className="dropdown__card-value">{currentTemperature}</p>
+            <p className="weather__dropdown-card-text">Temperature</p>
+            <p className="weather__dropdown-card-value">{currentTemperature}</p>
           </li>
           <li
-            className="dropdown__card dropdown__card-wind"
+            className="weather__dropdown-card weather__dropdown-card-wind"
             style={{ background: cardColors.wind }}
           >
-            <p className="dropdown__card-text">Wind</p>
-            <p className="dropdown__card-value">{currentWind}</p>
+            <p className="weather__dropdown-card-text">Wind</p>
+            <p className="weather__dropdown-card-value">{currentWind}</p>
           </li>
           <li
-            className="dropdown__card dropdown__card-visibility"
+            className="weather__dropdown-card weather__dropdown-card-visibility"
             style={{ background: cardColors.visibility }}
           >
-            <p className="dropdown__card-text">Visibility</p>
-            <p className="dropdown__card-value">{currentVisibility}</p>
+            <p className="weather__dropdown-card-text">Visibility</p>
+            <p className="weather__dropdown-card-value">{currentVisibility}</p>
           </li>
           <li
-            className="dropdown__card dropdown__card-gusts"
+            className="weather__dropdown-card weather__dropdown-card-gusts"
             style={{ background: cardColors.gusts }}
           >
-            <p className="dropdown__card-text">Gusts</p>
-            <p className="dropdown__card-value">{currentGust}</p>
+            <p className="weather__dropdown-card-text">Gusts</p>
+            <p className="weather__dropdown-card-value">{currentGust}</p>
           </li>
           <li
-            className="dropdown__card dropdown__card-humidity"
+            className="weather__dropdown-card weather__dropdown-card-humidity"
             style={{ background: cardColors.humidity }}
           >
-            <p className="dropdown__card-text">Humidity</p>
-            <p className="dropdown__card-value">{currentHumidity}</p>
+            <p className="weather__dropdown-card-text">Humidity</p>
+            <p className="weather__dropdown-card-value">{currentHumidity}</p>
           </li>
-        </div>
+        </ul>
       </div>
     </section>
   );

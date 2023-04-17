@@ -43,6 +43,7 @@ export default function Header({ handleSearch }) {
 
         <form className="header__search-form" onSubmit={handleSubmit}>
           <input
+            required
             className="header__search-input"
             type="text"
             placeholder="Enter address or coordinates"

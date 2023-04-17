@@ -4,7 +4,7 @@
 }
 
 .weather__card {
-  width: 1360px;
+  max-width: 1360px;
   height: 80px;
 
   text-decoration: none;
@@ -49,8 +49,6 @@
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
 
-  display: flex;
-
   margin: auto;
 
   white-space: nowrap;
@@ -61,35 +59,43 @@
 }
 
 
-.dropdown__cards {
-  background-color: rgba(254, 254, 254, 0.5);
-  border-radius: 12px;
+.weather__dropdown {
+  /*
   width: 1360px;
   height: 130px;
+  */
 
   margin: auto;
+  margin-top: 10px;
 
+  display: flex;
+  flex-direction: column;
 
 }
 
-.dropdown__card-list {
+.weather__dropdown-list {
+
   display: grid;
   justify-content: center;
 
   grid-template-columns: repeat(auto-fit, 210px);
   grid-gap: 17px 20px;
 
-  margin-top: 10px;
+      list-style-type: none;
+  padding: 0;
+  margin: 0;
+
 }
 
-.dropdown__card {
+.weather__dropdown-card {
   border-radius: 12px;
-  width: 200px;
+  width: 210px;
   height: 130px;
   background: #71da71;
+
 }
 
-.dropdown__card-text {
+.weather__dropdown-card-text {
   display: flex;
   justify-content: center;
 
@@ -100,9 +106,44 @@
   line-height: 24px;
 }
 
-.dropdown__card-value {
+.weather__dropdown-card-value {
   display: flex;
   justify-content: center;
 
   color: white;
+}
+
+@media screen and (max-width: 580px) {
+  .weather__card {
+     width: 282px;
+    
+  }
+
+  .weather__status-reason {
+    width: 282px;
+}
+
+.weather__dropdown {
+  width: 282px;
+
+}
+
+.weather__dropdown-list {
+
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 10px 20px;
+}
+
+.weather__dropdown-card {
+   width: 282px;
+   height: 40px;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+
+}
+
 }

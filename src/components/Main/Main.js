@@ -16,7 +16,7 @@ export default function Main({
   location
 }) {
   return (
-    <section className="main">
+    <main className="main">
       <WeatherCard
         currentWeather={currentWeather}
         currentTemperature={currentTemperature}
@@ -29,6 +29,6 @@ export default function Main({
         location={location}
       />
       <Map location={location} />
-    </section>
+    </main>
   );
 }

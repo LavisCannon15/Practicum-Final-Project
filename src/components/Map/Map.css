@@ -1,11 +1,35 @@
 .map {
   margin: auto;
+
   margin-top: 170px;
+  max-width: 1360px;
+
+  height: 450px;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.map__google {
   width: 1360px;
   height: 450px;
 }
 
-.open_street-map {
-  width: 1360px;
-  height: 450px;
+
+@media screen and (max-width: 580px) {
+  .map {
+    width: 282px;
+    padding-top:200px
+
+
+}
+
+.map__google {
+   width: 282px;
+
+  
+}
+
 }

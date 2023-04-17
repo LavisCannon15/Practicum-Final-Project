@@ -3,10 +3,14 @@
   src: url("../../fonts/Ubuntu-Medium.ttf");
 }
 
+
+
 .header__content {
+  
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  
 
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -21,7 +25,7 @@
   padding-top: 32px;
   padding-bottom: 38px;
 
-  width: 1360px;
+  max-width: 1360px;
   height: 40px;
 
   display: flex;
@@ -40,14 +44,17 @@
 }
 
 
+
+
 .header__search-input {
+
   width: 600px;
 
 
     font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 24px;
 
 background: #FFFFFF;
@@ -56,6 +63,10 @@ backdrop-filter: blur(4px);
 
 
 border-radius: 100px;
+
+
+
+
 
 }
 
@@ -75,9 +86,15 @@ box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
 border-radius: 100px;
 }
 
+.header__search-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
 .header__about-link {
   color: #000000;
   text-decoration: none;
+
 }
 
 .header__about-us-button {
@@ -88,4 +105,69 @@ border-radius: 100px;
   justify-content: flex-start;
 
   margin: 0;
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+ 
+  .header__content {
+    width: 282px;
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 130px);
+  grid-gap: 19px 20px;
+
+  }
+
+    .header__logo {
+    width: 130px;
+    height:24px;
+
+  }
+
+
+  .header__search-form{
+    order: 2;
+    width: 282px;
+
+    
+  }
+
+
+  .header__search-input {
+    width: 282px;
+    font-size: 12px;
+  }
+
+  .header__search-button {
+    left: 225px;
+    bottom: 28px;
+   
+  }
+
+  .header__about-link {
+    order: 1;
+    font-size: 12px;
+
+
+  }
+
+  .header__about-us-button {
+     width: 53px;
+
+     margin: auto;
+     margin-right: 0;
+
+     display: flex;
+     justify-content: flex-end;
+    
+  
+  }
+
+  
+
+
 }
