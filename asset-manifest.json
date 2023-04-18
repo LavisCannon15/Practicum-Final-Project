@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Practicum-Final-Project/static/css/main.22daf7d5.css",
+    "main.css": "/Practicum-Final-Project/static/css/main.d15c6c6e.css",
     "main.js": "/Practicum-Final-Project/static/js/main.81a939d2.js",
     "static/js/787.a689c1b3.chunk.js": "/Practicum-Final-Project/static/js/787.a689c1b3.chunk.js",
     "static/media/Ubuntu-Medium.ttf": "/Practicum-Final-Project/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
     "static/media/logo.svg": "/Practicum-Final-Project/static/media/logo.e2b9af7955223b0c55fed7196b7f5f0a.svg",
     "index.html": "/Practicum-Final-Project/index.html",
-    "main.22daf7d5.css.map": "/Practicum-Final-Project/static/css/main.22daf7d5.css.map",
+    "main.d15c6c6e.css.map": "/Practicum-Final-Project/static/css/main.d15c6c6e.css.map",
     "main.81a939d2.js.map": "/Practicum-Final-Project/static/js/main.81a939d2.js.map",
     "787.a689c1b3.chunk.js.map": "/Practicum-Final-Project/static/js/787.a689c1b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22daf7d5.css",
+    "static/css/main.d15c6c6e.css",
     "static/js/main.81a939d2.js"
   ]
 }
