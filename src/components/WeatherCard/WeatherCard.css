@@ -123,6 +123,16 @@
     width: 282px;
 }
 
+  .weather__status {
+    font-size: 30px;
+    
+  }
+
+  .weather__reason {
+    font-size: 11px;
+
+  }
+
 .weather__dropdown {
   width: 282px;
 
@@ -144,6 +154,10 @@
 
   margin: auto;
 
+}
+
+.weather__dropdown-card-value {
+  padding-left: 10px;
 }
 
 }
