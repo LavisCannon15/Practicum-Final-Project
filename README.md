@@ -1,6 +1,6 @@
 # Drone Forecast Application
 
-The Drone Forecast Application is a web application that provides drone pilots with weather and other relevant data to help them determine whether it is safe to fly their drone. The application uses the Google Places JavaScript API and Google Maps API to retrieve location data and display a map, and the OpenWeather API to retrieve weather data.
+The Drone Forecast Application is a web application that provides drone pilots with weather and other relevant data to help them determine whether it is safe to fly their drone. The application uses the Google Places JavaScript API and Google Maps API to retrieve location data and display a map, OpenWeather API to retrieve weather data, and OpenCage Data API for geolocating, which converts any location into coordinates
 
 
 ## Features
